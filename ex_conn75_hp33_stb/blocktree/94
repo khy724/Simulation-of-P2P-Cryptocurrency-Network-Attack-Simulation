@@ -1,0 +1,34 @@
+graph parent {
+	rankdir=LR splines=line
+	subgraph child {
+		0 [color=red]
+	}
+	1 -- 0
+	2 -- 0
+	3 -- 0
+	4 -- 0
+	5 -- 0
+	subgraph child {
+		1 [color=red]
+		2 [color=red]
+		3 [color=red]
+		4 [color=red]
+		5 [color=red]
+	}
+	6 -- 2
+	7 -- 4
+	subgraph child {
+		6 [color=red]
+		7 [color=red]
+	}
+	8 -- 7
+	9 -- 7
+	10 -- 7
+	11 -- 7
+	subgraph child {
+		8 [color=blue]
+		9 [color=red]
+		10 [color=red]
+		11 [color=red]
+	}
+}

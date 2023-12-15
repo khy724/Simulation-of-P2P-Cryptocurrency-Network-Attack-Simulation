@@ -1,0 +1,402 @@
+graph parent {
+	rankdir=LR splines=line
+	subgraph child {
+		0 [color=red]
+	}
+	1 -- 0
+	2 -- 0
+	subgraph child {
+		1 [color=red]
+		2 [color=red]
+	}
+	3 -- 2
+	4 -- 2
+	subgraph child {
+		3 [color=red]
+		4 [color=red]
+	}
+	5 -- 3
+	6 -- 4
+	7 -- 4
+	8 -- 4
+	subgraph child {
+		5 [color=red]
+		6 [color=red]
+		7 [color=red]
+		8 [color=red]
+	}
+	9 -- 6
+	subgraph child {
+		9 [color=red]
+	}
+	10 -- 9
+	subgraph child {
+		10 [color=red]
+	}
+	11 -- 10
+	12 -- 10
+	13 -- 10
+	subgraph child {
+		11 [color=red]
+		12 [color=red]
+		13 [color=red]
+	}
+	14 -- 12
+	15 -- 12
+	subgraph child {
+		14 [color=red]
+		15 [color=red]
+	}
+	16 -- 14
+	subgraph child {
+		16 [color=red]
+	}
+	17 -- 16
+	18 -- 16
+	subgraph child {
+		17 [color=red]
+		18 [color=red]
+	}
+	19 -- 17
+	20 -- 17
+	subgraph child {
+		19 [color=red]
+		20 [color=red]
+	}
+	21 -- 19
+	22 -- 19
+	23 -- 19
+	24 -- 19
+	subgraph child {
+		21 [color=red]
+		22 [color=red]
+		23 [color=red]
+		24 [color=red]
+	}
+	25 -- 21
+	subgraph child {
+		25 [color=red]
+	}
+	26 -- 25
+	subgraph child {
+		26 [color=red]
+	}
+	27 -- 26
+	28 -- 26
+	29 -- 26
+	30 -- 26
+	subgraph child {
+		27 [color=red]
+		28 [color=red]
+		29 [color=red]
+		30 [color=red]
+	}
+	31 -- 28
+	subgraph child {
+		31 [color=red]
+	}
+	32 -- 31
+	33 -- 31
+	34 -- 31
+	35 -- 31
+	subgraph child {
+		32 [color=red]
+		33 [color=red]
+		34 [color=red]
+		35 [color=red]
+	}
+	36 -- 32
+	subgraph child {
+		36 [color=red]
+	}
+	37 -- 36
+	subgraph child {
+		37 [color=red]
+	}
+	38 -- 37
+	subgraph child {
+		38 [color=red]
+	}
+	39 -- 38
+	40 -- 38
+	subgraph child {
+		39 [color=red]
+		40 [color=red]
+	}
+	41 -- 39
+	42 -- 39
+	43 -- 39
+	subgraph child {
+		41 [color=red]
+		42 [color=red]
+		43 [color=red]
+	}
+	44 -- 41
+	subgraph child {
+		44 [color=red]
+	}
+	45 -- 44
+	46 -- 44
+	subgraph child {
+		45 [color=red]
+		46 [color=red]
+	}
+	47 -- 45
+	48 -- 45
+	49 -- 46
+	subgraph child {
+		47 [color=red]
+		48 [color=red]
+		49 [color=red]
+	}
+	50 -- 49
+	subgraph child {
+		50 [color=red]
+	}
+	51 -- 50
+	52 -- 50
+	53 -- 50
+	subgraph child {
+		51 [color=red]
+		52 [color=red]
+		53 [color=red]
+	}
+	54 -- 51
+	55 -- 52
+	56 -- 52
+	subgraph child {
+		54 [color=red]
+		55 [color=red]
+		56 [color=red]
+	}
+	57 -- 55
+	subgraph child {
+		57 [color=red]
+	}
+	58 -- 57
+	59 -- 57
+	subgraph child {
+		58 [color=red]
+		59 [color=red]
+	}
+	60 -- 59
+	61 -- 59
+	subgraph child {
+		60 [color=red]
+		61 [color=red]
+	}
+	62 -- 60
+	63 -- 60
+	subgraph child {
+		62 [color=red]
+		63 [color=red]
+	}
+	64 -- 62
+	subgraph child {
+		64 [color=red]
+	}
+	65 -- 64
+	66 -- 64
+	67 -- 64
+	subgraph child {
+		65 [color=red]
+		66 [color=red]
+		67 [color=red]
+	}
+	68 -- 66
+	subgraph child {
+		68 [color=red]
+	}
+	69 -- 68
+	70 -- 68
+	subgraph child {
+		69 [color=red]
+		70 [color=red]
+	}
+	71 -- 69
+	72 -- 69
+	subgraph child {
+		71 [color=red]
+		72 [color=red]
+	}
+	73 -- 71
+	74 -- 72
+	75 -- 72
+	subgraph child {
+		73 [color=red]
+		74 [color=red]
+		75 [color=red]
+	}
+	76 -- 74
+	77 -- 74
+	subgraph child {
+		76 [color=red]
+		77 [color=red]
+	}
+	78 -- 76
+	79 -- 77
+	subgraph child {
+		78 [color=red]
+		79 [color=red]
+	}
+	80 -- 78
+	subgraph child {
+		80 [color=red]
+	}
+	81 -- 80
+	82 -- 80
+	83 -- 80
+	subgraph child {
+		81 [color=red]
+		82 [color=red]
+		83 [color=red]
+	}
+	84 -- 81
+	subgraph child {
+		84 [color=red]
+	}
+	85 -- 84
+	86 -- 84
+	subgraph child {
+		85 [color=red]
+		86 [color=red]
+	}
+	87 -- 85
+	88 -- 85
+	89 -- 85
+	90 -- 85
+	subgraph child {
+		87 [color=red]
+		88 [color=red]
+		89 [color=red]
+		90 [color=red]
+	}
+	91 -- 87
+	subgraph child {
+		91 [color=red]
+	}
+	92 -- 91
+	93 -- 91
+	subgraph child {
+		92 [color=red]
+		93 [color=red]
+	}
+	94 -- 92
+	95 -- 92
+	subgraph child {
+		94 [color=red]
+		95 [color=red]
+	}
+	96 -- 94
+	subgraph child {
+		96 [color=red]
+	}
+	97 -- 96
+	98 -- 96
+	99 -- 96
+	subgraph child {
+		97 [color=red]
+		98 [color=red]
+		99 [color=red]
+	}
+	100 -- 97
+	subgraph child {
+		100 [color=red]
+	}
+	101 -- 100
+	102 -- 100
+	subgraph child {
+		101 [color=red]
+		102 [color=red]
+	}
+	103 -- 101
+	104 -- 101
+	105 -- 101
+	106 -- 102
+	107 -- 102
+	subgraph child {
+		103 [color=red]
+		104 [color=red]
+		105 [color=red]
+		106 [color=red]
+		107 [color=red]
+	}
+	108 -- 106
+	subgraph child {
+		108 [color=red]
+	}
+	109 -- 108
+	subgraph child {
+		109 [color=red]
+	}
+	110 -- 109
+	subgraph child {
+		110 [color=red]
+	}
+	111 -- 110
+	112 -- 110
+	113 -- 110
+	subgraph child {
+		111 [color=red]
+		112 [color=red]
+		113 [color=red]
+	}
+	114 -- 111
+	115 -- 111
+	116 -- 112
+	117 -- 112
+	subgraph child {
+		114 [color=red]
+		115 [color=red]
+		116 [color=red]
+		117 [color=red]
+	}
+	118 -- 116
+	subgraph child {
+		118 [color=red]
+	}
+	119 -- 118
+	subgraph child {
+		119 [color=red]
+	}
+	120 -- 119
+	121 -- 119
+	122 -- 119
+	subgraph child {
+		120 [color=red]
+		121 [color=red]
+		122 [color=red]
+	}
+	123 -- 120
+	subgraph child {
+		123 [color=red]
+	}
+	124 -- 123
+	subgraph child {
+		124 [color=red]
+	}
+	125 -- 124
+	126 -- 124
+	subgraph child {
+		125 [color=red]
+		126 [color=red]
+	}
+	127 -- 125
+	128 -- 125
+	129 -- 126
+	subgraph child {
+		127 [color=red]
+		128 [color=red]
+		129 [color=red]
+	}
+	130 -- 127
+	131 -- 128
+	subgraph child {
+		130 [color=red]
+		131 [color=red]
+	}
+	132 -- 130
+	subgraph child {
+		132 [color=red]
+	}
+}
